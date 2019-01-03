@@ -1,7 +1,319 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+   <title>IEEE SwarmNet Workshop</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <link href="wcnee.css" rel="stylesheet" type="text/css" id="styleId"/>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <style>
+      body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+      .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+      .fa-anchor,.fa-coffee {font-size:200px}
+   </style>
+   <body>
+      <!-- Navbar -->
+      <div class="w3-top">
+         <div class="w3-bar w3-indigo w3-card-2 w3-left-align w3-large">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-indigo" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+            <a href="#scope" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Scope</a>
+            <a href="#topics" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Topics</a>
+            <a href="#submissions" class="w3-bar-item w3-button w3-padding-large">Submissions</a>
+            <a href="#committees" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Committees</a>
+            <a href="#dates" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Important Dates</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+         </div>
+         <!-- Navbar on small screens -->
+         <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+            <a href="#scope" class="w3-bar-item w3-button w3-padding-large">Scope</a>
+            <a href="#topics" class="w3-bar-item w3-button w3-padding-large">Topics</a>
+            <a href="#submissions" class="w3-bar-item w3-button w3-padding-large">Submissions</a>
+            <a href="#committees" class="w3-bar-item w3-button w3-padding-large">Committees</a>
+            <a href="#dates" class="w3-bar-item w3-button w3-padding-large">Important Dates</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+         </div>
+      </div>
+      <!-- Header -->
+      <header class="w3-container w3-white" style="padding-top:80px;">
+      </header>
+      <!-- First Grid -->
+      <div class="w3-row-padding w3-padding-8 w3-container" id="home">
+         <div class="w3-content">
+            <img src="ieee-comsoc.png" width="120px" style="padding:0px 0px 0px 0px; position:absolute; margin-left:850px;"/>
+            <a href="http://www.comsoc.org/" target="_blank">
+            <img src="ieee-comsoc.png" width="120px" style="padding:0px 0px 0px 0px; position:absolute; margin-left:850px;"/>
+            </a>
+            <a href="https://www.ieee.org/index.html" target="_blank">
+            <img src="ieee.png" width="120px" style="padding:0px 0px 0px 0px; position:absolute; margin-left:720px;"/>
+            </a>
+            <a href="http://infocom2019.ieee-infocom.org/" target="_blank">
+            <img src="ieee-infocom.png" width="260px" style="padding:0px 0px 0px 0px"/>
+            </a>
+            <p style="color:#777; font-size:12pt; font-weight: bold; padding-top:0; margin-top:0;">
+               IEEE International Symposium on a World of Wireless, Mobile, and Multimedia Networks
+(IEEE WOWMOM 2019) <br>
+               9 June - 12 June, 2019 // Washington DC, USA
+            </p>
+            <br>
+            <img class="w3-image" src="paris.png" style="margin-bottom:10px;">
+            <h1 class="w3-jumbo w3-text-indigo" style="margin-bottom:-25px;"><b>IEEE WCNEE 2019</b></h1>
+            <h4 class="w3-text-blue"><b>1st IEEE International Workshop on Wireless Networking, Planning, and Computing for
+Unmanned Aerial Vehicle Swarms</b></h4>
+            <br>
+         </div>
+      </div>
+      <div class="w3-container w3-threequarter">
+         <div class="w3-row-padding   w3-padding-32 w3-container w3-light-grey" id="scope">
+            <div class="w3-content">
+               <h1 class="w3-xxlarge w3-text-indigo "><b>Scope</b></h1>
+               <!-- Photo grid (modal) -->
+               <div class="w3-row-padding">
+                  <div>
+                     <!--
+                     <p align="justify">Extreme communication environments such as underwater, aerial, underground, and intra-body have been attracting growing interest from both academia and industry in an effort to conquer the last wireless communication frontiers. Novel wireless communication architectures and networking protocols for GPS-denied and communication-constrained environments enable a rich body of applications with unprecedented societal impact. The workshop will focus on communication, networking, and system-level developments related to underwater, aerial, underground, and intra-body environments, as well as on contributions towards the characterization and modeling of the different mediums based on real-world data measurements. </p><br>
+                     <p align="justify">The goal of the workshop is to unveil the latest wireless technology developments, from the physical layer all the way to the application layer in realizing underwater, aerial, underground, and intra-body communication networks with a focus on bridging the gaps between theory, algorithms, and practical system implementations. The workshop will bring together academic and industrial researchers to identify and discuss technical challenges and recent results related to underwater, aerial, underground, and intra-body extreme communication environments. </p>
+                     -->
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- Second Grid -->
+         <div class="w3-row-padding w3-white w3-padding-32 w3-container" id="topics">
+            <div class="w3-content">
+               <h1 class="w3-xxlarge w3-text-indigo "><b>Topics</b></h1>
+               <p>Topics of interest include, but are not limited to: TBA</p>
+               <!--
+               <br>
+               <b style="border-bottom: 1px #000 dotted;">Communications and Networking Protocols</b>
+               <ul>
+                  <li>  Energy efficient protocols and routing techniques </li>
+                  <li>  Cognitive networking </li>
+                  <li>  Hybrid network protocol designs </li>
+                  <li>  Secure LPD/LPI communication and networking </li>
+                  <li>  Spectrally efficient signal waveform designs </li>
+                  <li>  Multi/(massive) antenna communications </li>
+                  <li>  Low-power wide area networking </li>
+                  <li>  Ad-hoc cross-layer optimized networking, routing, handover and meshing </li>
+                  <li>  Distributed sensing and mobile networking </li>
+                  <li>  Energy harvesting wireless communications </li>
+					     </ul>
+
+               <b style="border-bottom: 1px #000 dotted;">Systems and Applications</b>
+               <ul>
+            	     <li>  RF/acoustic/optical communication systems</li>
+                  <li>  Modeling and simulation tools </li>
+                  <li>  Experimental results from prototypes, testbeds, and demonstrations </li>
+                  <li>  Software-defined radio platforms and SDN testbeds </li>
+                  <li>  Internet-of-things applications </li>
+                  <li>  Antenna design and processing </li>
+                  <li>  Spectrum access policies for dynamic network control</li>
+                  <li>  Hardware/software challenges in multi/(massive) antenna transceiver design </li>
+                  <li>  Cooperation of robotic unmanned vehicles with multi-domain (sea-land-air) capabilities  </li>
+                  <li>  Human-machine interaction </li>
+					     </ul>
+
+               <b style="border-bottom: 1px #000 dotted;">Signal Processing and Channel Modeling</b>
+               <ul>
+                <li>  Signal propagation models </li>
+                  <li>  Optimization techniques for multi-modal processing </li>
+                  <li>  Signal processing for distributed beamforming </li>
+                  <li>  Localization, detection, classification and tracking methods</li>
+                  <li>  Communication-constrained multi-agent path planning and task allocation </li>
+                  <li>  Machine learning and AI-assisted algorithms for wireless communications and networking  </li>
+                  <li>  Signal propagation and attenuation models (absorption, scattering, fading, multipath) </li>
+                  <li>  Measurement and characterization (modeling) of real-world wireless (underwater, aerial, intra-body, underground) network deployments </li>
+					     </ul>
+               -->
+            </div>
+         </div>
+
+
+        <div class="w3-row-padding w3-white w3-padding-32 w3-container" id="submissions">
+        	<div class="w3-content">
+               <h1 class="w3-xxlarge w3-text-indigo"><b>Submissions</b></h1>
+            	<div class="w3-row-padding">
+                  	<div>
+                      <!--
+                      <p align="justify">Manuscripts must be limited to 6 pages in IEEE 8.5x11 format. Accepted papers will be published in the combined INFOCOM 2019 Workshop proceedings and will be submitted to IEEE Xplore. Submitted papers may not have been previously published in or under consideration for publication in another journal or conference. The reviews will be single blind. Manuscripts should be submitted as PDF files via <a href="https://edas.info/newPaper.php?c=25566" target="_blank">  EDAS </a>.</p>
+                      -->
+				  	</div>
+				  	<div>
+              <!--
+				  		<p align="justify">Final camera ready and registration guidelines can be found in last year's <a href="http://infocom2018.ieee-infocom.org/content/final-camera-ready-paper-submission-workshops" target="_blank">  website </a>. Papers up to 6 pages plus 2 extra pages (with extra page fees) are allowed.</p>
+              -->
+            </div>
+            	</div>
+         	</div>
+         </div>
+
+
+         <div class="w3-row-padding w3-light-grey w3-padding-32 w3-container" id="committees">
+            <div class="w3-content">
+               <h1 class="w3-xxlarge w3-text-indigo"><b>Committees</b></h1>
+
+
+
+
+             <ul class="w3-ul">
+                  <b style="border-bottom: 1px #000 dotted;">Steering Committee</b>
+                  <li>
+                     <a href="http://www.eng.fau.edu/directory/faculty/batalama/index.php" target="_blank">  Stella N. Batalama
+                     </a><br>Florida Atlantic University, USA
+                  <li>       <a href="http://www.ece.neu.edu/wineslab/tmelodia.php" target="_blank">  Tommaso Melodia  </a><br> Northeastern University, USA
+                  <li>       <a href="http://www.eng.fau.edu/directory/faculty/pados/index.php" target="_blank"> Dimitris A. Pados  </a><br> Florida Atlantic University, USA
+
+					</ul>
+
+		    <br>
+			<ul class="w3-ul">
+				  <b style="border-bottom: 1px #000 dotted;">Program Committee Co-Chairs</b>
+                  <li>       <a href="https://www.acsu.buffalo.edu/~gsklivan/" target="_blank">  George Sklivanitis
+                     </a><br>  Florida Atlantic University, USA
+                  <li>       <a href="http://www.ece.neu.edu/wineslab/Emrecan.php" target="_blank"> Emrecan Demirors  </a><br> Northeastern University, USA
+                  <li>       <a href="https://people.rit.edu/pxmeee/" target="_blank">  Panos P. Markopoulos  </a><br>Rochester Institute of Technology, USA
+                  </ul>
+			<br>
+
+
+			<ul class="w3-ul">
+					<b style="border-bottom: 1px #000 dotted;">Demo/Poster Chair</b>
+				   <li>       <a href="https://www.linkedin.com/in/enricosantagati" target="_blank">  G. Enrico Santagati  </a><br> Bose Corporation, USA
+					</ul>
+			<br>
+
+			<ul class="w3-ul">
+					<b style="border-bottom: 1px #000 dotted;">Web Chair</b>
+				   <li>       <a href="https://ktountas.github.io" target="_blank" target="_blank"> Mr. Konstantinos Tountas  </a><br> Florida Atlantic University USA
+				   </ul>
+
+			<br>
+			<ul class="w3-ul">
+				  <b style="border-bottom: 1px #000 dotted;">Technical Program Committee</b>
+				<li>			 Sergi Abadal (Polytechnic University of Catalonia, Spain)
+				<li>			 Jonathan Ashdown (United States Air Force, USA)
+				<li>			 Stefano Basagni (Northeastern University, USA)
+				<li>			 Alper Bereketli (ASELSAN, Turkey)
+				<li> 			 Irem Bor (Carleton University, Canada)
+				<li> 			 Paolo Casari (IMDEA Networks Institute, Spain)
+				<li> 			 Luca Chiaraviglio (University of Rome Tor Vergata, Italy)
+				<li> 			 Stefania Colonnese (University of Rome La Sapienza, Italy)
+				<li>			 Fraser Dalgleish (Harris Corporation, USA)
+				<li>			 Manhar Dhanak (Florida Atlantic University, USA)
+				<li> 			 Salvatore D'Oro (Northeastern University, USA)
+				<li> 			 Xenofon Fafoutis (Technical University of Denmark, Denmark)
+				<li> 			 Amlan Ganguly (Rochester Institute of Technology, USA)
+				<li> 			 Adam Gannon (NASA, USA)
+				<li>			 Paul Gendron (University of Massachusetts Dartmouth, USA)
+				<li> 			 Zhangyu Guan (SUNY at Buffalo, USA)
+				<li>             Pedram Johari (SUNY at Buffalo, USA)
+				<li>             George Karystinos (Technical University of Crete, Greece)
+				<li>             Andres Kwasinski (Rochester Institute of Technology, USA)
+				<li> 			 Valeria Loscri (INRIA Lille-Nord Europe, France)
+				<li>             Nicholas Mastronarde (SUNY at Buffalo, USA)
+				<li>             David Matolak (University of South Carolina, USA)
+				<li>			 Jalil Modares (Qualcomm, USA)
+				<li>			 Enrico Natalizio (Université de Lorraine, France)
+				<li>			 Georgios Papadopoulos (IMT Atlantique, France)
+				<li>			 Costas Pelekanakis (NATO CMRE, Italy)
+				<li>			 Alberto Quattrini Li (Dartmouth College, USA)
+				<li>			 Mehdi Rahmati (Rutgers University, USA)
+				<li>			 Gaultier Real (DGA, France)
+				<li>			 Christian Renner (Hamburg University of Technology, Germany)
+				<li>			 Francesco Restuccia (Northeastern University, USA)
+				<li>			 Petros Spachos (University of Guelph, Canada)
+				<li> 			 Milica Stojanovic (Northeastern University, USA)
+				<li> 			 Zhi Sun (SUNY at Buffalo, USA)
+				<li> 			 Li Sun (VMware USA)
+				<li> 			 Dimitrios Zorbas (Tyndall National Institute, Ireland)
+
+
+
+
+                  </ul>
+
+            </div>
+         </div>
+
+
+         <div class="w3-row-padding w3-white w3-padding-32 w3-container" id="dates">
+            <div class="w3-content">
+               <h1 class="w3-xxlarge w3-text-indigo"><b>Important Dates</b></h1>
+               <table class="w3-table w3-striped">
+                  <tr>
+                     <th>Paper submission deadline:</th>
+                     <th> March 11, 2019</th>
+                  </tr>
+                  <tr>
+                     <td>Author Notification:</td>
+                     <td> April 15, 2019 </td>
+                  </tr>
+                  <tr>
+                     <td>Camera-ready submission:</td>
+                     <td> April 29, 2019 </td>
+                  </tr>
+                  <tr>
+                     <td>Workshop date:</td>
+                     <td>TBA </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+
+
+
+
+
+         <div class="w3-row-padding w3-light-grey w3-padding-32 w3-container" id="contact">
+            <div class="w3-content">
+               <h1 class="w3-xxlarge w3-text-indigo"><b>Contact Us</b></h1>
+               <a href="mailto:ieee.wcnee@gmail.com" target="_top">E-mail the organizers:</a> ieee.wcnee@gmail.com
+            </div>
+         </div>
+
+
+        <div class="w3-container" style="position:relative">
+            <a href="#home" class="w3-button w3-normal w3-circle w3-blue"
+               style="position:absolute;top:-18px;right:24px"> top </a>
+         </div>
+
+      </div>
+
+
+      <div class="w3-container w3-rest">
+         <div id="twitter">
+            <a class="twitter-timeline" data-lang="en" height="2150" data-theme="dark" data-link-color="#2B7BB9" href="https://twitter.com/IEEE_WCNEE?ref_src=twsrc%5Etfw">Tweets by IEEE_WCNEE</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+         </div>
+      </div>
+
+	  <div class="w3-container w3-rest">
+	  			<div id="conference">
+		       	<p class="title">WCNEE Workshops</p>
+				<ul>
+			  		<li><a href="http://infocom2018.ieee-infocom.org/content/workshop-wcnee-wireless-communications-and-networking-extreme-environments">2018 - Honolulu, USA</a></li>
+			  	</ul>
+			  	<ul>
+			  		<li><a href="http://infocom2017.ieee-infocom.org/workshop/wcnee-wireless-communications-and-networking-extreme-environments">2017 - Atlanta, USA</a></li>
+			  	</ul>
+			 </div>
+	   </div>
+      <!-- Footer -->
+      <footer class="w3-container w3-padding-64 w3-center w3-opacity">
+         <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+      </footer>
+      <script>
+         // Used to toggle the menu on small screens when clicking on the menu button
+         function myFunction() {
+             var x = document.getElementById("navDemo");
+             if (x.className.indexOf("w3-show") == -1) {
+                 x.className += " w3-show";
+             } else {
+                 x.className = x.className.replace(" w3-show", "");
+             }
+         }
+      </script>
+   </body>
 </html>
