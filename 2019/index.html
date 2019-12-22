@@ -1,0 +1,310 @@
+﻿<!DOCTYPE html>
+<html>
+   <title>SwarmNet Workshop</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <link href="wcnee.css" rel="stylesheet" type="text/css" id="styleId"/>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <style>
+      body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+      .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+      .fa-anchor,.fa-coffee {font-size:200px}
+   </style>
+   <body>
+      <!-- Navbar -->
+      <div class="w3-top">
+         <div class="w3-bar w3-indigo w3-card-2 w3-left-align w3-large">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-indigo" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+            <a href="#scope" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Scope</a>
+            <a href="#topics" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Topics</a>
+            <a href="#submissions" class="w3-bar-item w3-button w3-padding-large">Submissions</a>
+            <a href="#committees" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Committees</a>
+            <a href="#dates" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Important Dates</a>
+            <a href="#program" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Program</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+         </div>
+         
+         <!-- Navbar on small screens -->
+         <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+            <a href="#scope" class="w3-bar-item w3-button w3-padding-large">Scope</a>
+            <a href="#topics" class="w3-bar-item w3-button w3-padding-large">Topics</a>
+            <a href="#submissions" class="w3-bar-item w3-button w3-padding-large">Submissions</a>
+            <a href="#committees" class="w3-bar-item w3-button w3-padding-large">Committees</a>
+            <a href="#dates" class="w3-bar-item w3-button w3-padding-large">Important Dates</a>
+            <a href="#program" class="w3-bar-item w3-button w3-padding-large">Program</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+         </div>
+      </div>
+      
+      <!-- Header -->
+      <header class="w3-container w3-white" style="padding-top:80px;">
+      </header>
+      
+      <!-- First Grid -->
+      <div class="w3-row-padding w3-padding-8 w3-container" id="home">
+         <div class="w3-content">
+            
+            <a href="http://tccc.committees.comsoc.org/" target="_blank"></a>
+            <img src="logo-tccc.png" width="120px" style="padding:25px 0px 0px 0px; position:absolute; margin-left:850px;"/>
+            
+            <a href="https://www.mst.edu" target="_blank">
+            <img src="logo-missouri.png" width="120px" style="padding:0px 0px 0px 0px; position:absolute; margin-left:720px;"/></a>
+            
+            <a href="https://www.computer.org/" target="_blank">
+            <img src="ieee-computer-society.png" width="120px" style="padding:0px 0px 0px 0px; position:absolute; margin-left:590px;"/></a>
+            
+            <a href="http://cs.ucf.edu/wowmom2019/" target="_blank"></a>            
+            <img src="logo-wowmom.png" width="260px" style="padding:0px 0px 0px 0px"/>
+            <p style="color:#777; font-size:12pt; font-weight: bold; padding-top:0; margin-top:0;">
+               IEEE International Symposium on a World of Wireless, Mobile, and Multimedia Networks (IEEE WOWMOM 2019) 
+               <br> 9 June - 12 June, 2019 // Washington DC, USA
+            </p>
+            <br>
+            
+            <img class="w3-image" src="washington.jpg" style="margin-bottom:10px;">
+            <h1 class="w3-jumbo w3-text-indigo" style="margin-bottom:-25px;"><b>SwarmNet 2019</b></h1>
+            <h4 class="w3-text-blue"><b>1st IEEE WoWMoM Workshop on Wireless Networking, Planning, and Computing for UAV Swarms</b></h4>
+            <br>
+         </div>
+      </div>
+      
+      <div class="w3-container"> <!-- w3-threequarter -->
+         <div class="w3-row-padding w3-padding-32 w3-container w3-light-grey" id="scope">
+            <div class="w3-content">
+               <h1 class="w3-xxlarge w3-text-indigo "><b>Scope</b></h1>
+               <!-- Photo grid (modal) -->
+               <div class="w3-row-padding">
+                  <div>
+                     <p align="justify">Recent advances in embedded computing, wireless communication, flight controllers, 
+                     and miniaturized sensing have enabled the growth of unmanned aerial vehicles (UAVs). 
+                     Networked swarms of such UAVs promise breakthroughs in public safety, commercial, and military applications 
+                     including search-and-rescue, disaster response, infrastructure inspection, environmental monitoring, 
+                     virtual/augmented reality, and ISR (intelligence, surveillance and reconnaissance). </p>                    
+                     <p align="justify">The goal of this workshop is to bring together researchers working at the intersection of 
+                     wireless networking, mobile computing, sensing, robotics, and/or planning 
+                     to address a myriad of fundamental technical challenges that must be solved before UAV swarms and,
+                     more broadly, multi-UAV systems can be safely, effectively, and widely deployed. 
+                     Since many of these challenges will not be able to be addressed without the help of UAV swarm simulation platforms, 
+                     experimental testbeds/prototypes, and experimental evaluations, papers on these topics are especially encouraged. </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- Second Grid -->
+         <div class="w3-row-padding w3-white w3-padding-32 w3-container" id="topics">
+            <div class="w3-content">
+               <h1 class="w3-xxlarge w3-text-indigo "><b>Topics</b></h1>
+               <p>Topics of interest include, but are not limited to:</p>
+               <!-- 
+               <br>
+               <b style="border-bottom: 1px #000 dotted;">Communications and Networking Protocols</b> 
+               -->
+               <ul>
+                  <li> Communication and networking protocols for UAV swarms </li>
+                  <li> Resilient communication protocols for multi-agent planning and control </li>
+                  <li> Delay-tolerant networking for UAVs </li>
+                  <li> Network topology control for performance optimization (connectivity, throughput, etc.) </li>
+                  <li> Wireless localization for UAVs </li>
+                  <li> Communication architectures and technologies for UAV air-traffic control </li>
+                  <li> UAVs in 4G/5G cellular networks </li>
+                  <li> UAV integration in the urban IoT </li>
+                  <li> Aerial video streaming for virtual/augmented reality </li>
+                  <li> Data offloading and mobile edge computing with UAVs </li>
+                  <li> Air-to-air, air-to-ground, and ground-to-air channel modeling for UAVs
+                  <li> Cyber-security for UAVs
+                  <li> UAV swarm network simulation platforms
+                  <li> UAV swarm network testbeds, experimental evaluation, and prototyping
+			   </ul>
+
+               <!--
+               <b style="border-bottom: 1px #000 dotted;">Systems and Applications</b>
+               <ul>
+            	     <li>  RF/acoustic/optical communication systems</li>
+                  <li>  Modeling and simulation tools </li>
+                  <li>  Experimental results from prototypes, testbeds, and demonstrations </li>
+                  <li>  Software-defined radio platforms and SDN testbeds </li>
+                  <li>  Internet-of-things applications </li>
+                  <li>  Antenna design and processing </li>
+                  <li>  Spectrum access policies for dynamic network control</li>
+                  <li>  Hardware/software challenges in multi/(massive) antenna transceiver design </li>
+                  <li>  Cooperation of robotic unmanned vehicles with multi-domain (sea-land-air) capabilities  </li>
+                  <li>  Human-machine interaction </li>
+					     </ul>
+
+               <b style="border-bottom: 1px #000 dotted;">Signal Processing and Channel Modeling</b>
+               <ul>
+                <li>  Signal propagation models </li>
+                  <li>  Optimization techniques for multi-modal processing </li>
+                  <li>  Signal processing for distributed beamforming </li>
+                  <li>  Localization, detection, classification and tracking methods</li>
+                  <li>  Communication-constrained multi-agent path planning and task allocation </li>
+                  <li>  Machine learning and AI-assisted algorithms for wireless communications and networking  </li>
+                  <li>  Signal propagation and attenuation models (absorption, scattering, fading, multipath) </li>
+                  <li>  Measurement and characterization (modeling) of real-world wireless (underwater, aerial, intra-body, underground) network deployments </li>
+					     </ul>
+               -->
+            </div>
+         </div>
+
+
+        <div class="w3-row-padding w3-light-grey w3-padding-32 w3-container" id="submissions">
+           <div class="w3-content">
+              <h1 class="w3-xxlarge w3-text-indigo"><b>Submissions</b></h1>
+                 <div class="w3-row-padding">
+                    <div>
+                       <p align="justify"> Submissions may be up to 6 pages in length (including figures and references), 
+                       formatted in two-column IEEE conference style with font size 10 point or greater. 
+                       For the camera-ready (accepted) papers, authors can buy one additional page, for a total length of up to 7 pages.</p>
+		       <p>Papers must be submitted electronically to EDAS
+			       (<a href="https://edas.info/N25791" target="_blank"> https://edas.info/N25791 </a>)
+			       by <b>March 26, 2019, 23:59 EDT [EXTENDED]</b>.</p>
+                       <p>For guidelines regarding formatting, please refer to the 
+                       <a href="http://www.ieee.org/conferences_events/conferences/publishing/templates.html" target="_blank"> IEEE Manuscript Templates for Conference Proceedings</a>.
+                       </p>
+		       <p> A copyright footer should be added to all camera ready submissions. The right footer is selected according the following criteria:
+                           (1) For papers in which all authors are employed by the US government, the copyright notice is: U.S. Government work not protected by U.S. copyright;
+                           (2) For papers in which all authors are employed by a Crown government (UK, Canada, and Australia), the copyright notice is: 978-1-7281-0270-2/19/$31.00 ©2019 Crown;
+                           (3) For papers in which all authors are employed by the European Union, the copyright notice is: 978-1-7281-0270-2/19/$31.00 ©2019 European Union; and
+			   (4) For all other papers the copyright notice is: 978-1-7281-0270-2/19/$31.00 ©2019 IEEE.</p> 
+                    </div>
+                 </div>
+         	  </div>
+           </div>
+
+
+         <div class="w3-row-padding w3-white w3-padding-32 w3-container" id="committees">
+            <div class="w3-content">
+               <h1 class="w3-xxlarge w3-text-indigo"><b>Committees</b></h1>
+                  <ul class="w3-ul">
+                     <b style="border-bottom: 1px #000 dotted;">Organizing Committee</b>
+                        <li> <a href="http://www.eng.buffalo.edu/~nmastron/" target="_blank"> Nick Mastronarde</a>
+                        <br> University at Buffalo, USA
+                        
+                        <li> <a href="http://www.jakov.org/" target="_blank"> Jacob Chakareski</a>
+                        <br> University of Alabama, USA
+                  
+                        <li> <a href="https://www.ics.uci.edu/~mlevorat/" target="_blank"> Marco Levorato</a>
+                        <br> University of California, Irvine, USA
+                  </ul>
+		          <br>
+				  <ul class="w3-ul">
+				  <b style="border-bottom: 1px #000 dotted;">Technical Program Committee</b>
+				     <li> Jonathan Ashdown, Air Force Research Laboratory, USA
+                                     <li> Zhangyu Guan, University at Buffalo, USA
+			             <li> Farshad Ghanei, University at Buffalo, USA
+			             <li> Panos P. Markopoulos, Rochester Institute of Technology, USA
+			             <li> Georgios Sklivanitis, Florida Atlantic University, USA
+			             <li> Mohammad Mozaffari, Virginia Tech, USA
+			             <li> Fatemeh Afghah, Northern Arizona University, USA
+				     <li> Abolfazl Razi, Northern Arizona University, USA
+                  </ul>
+            </div>
+         </div>
+
+         <div class="w3-row-padding w3-light-grey w3-padding-32 w3-container" id="dates">
+            <div class="w3-content">
+               <h1 class="w3-xxlarge w3-text-indigo"><b>Important Dates</b></h1>
+               <table class="w3-table w3-striped">
+                  <tr>
+		     <th><b>[EXTENDED] Paper submission deadline:</b></th>
+                     <th><b> March 26, 2019 </b></th>
+                  </tr>
+                  <tr>
+                     <td>Author Notification:</td>
+                     <td> April 15, 2019 </td>
+                  </tr>
+                  <tr>
+                     <td>Camera-ready submission:</td>
+                     <td> April 29, 2019 </td>
+                  </tr>
+                  <tr>
+                     <td>Workshop date:</td>
+                     <td> June 10, 2019 </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+
+	 <div class="w3-row-padding w3-white w3-padding-32 w3-container" id="program">
+            <div class="w3-content">
+               <h1 class="w3-xxlarge w3-text-indigo"><b>Workshop Program</b></h1>
+               <ul class="w3-ul">
+	       <li> 08:00 – 08:30 Registration
+               <li> 08:30 – 08:35 Opening Remarks
+               <li> 08:35 – 09:25 Keynote Talk: 
+		       Autonomous Localization, Channelization, and Networking – Dimitris Pados
+               <li> 09:25 – 10:00 Invited Talk: 
+		       Drone Cellular Networks: from theory to practice – Ludovico Ferranti
+               <li> 10:00 – 10:30 Coffee Break
+               <li> 10:30 – 12:20 Accepted Papers
+               <li> [1] Adaptive Swarm Control for Mobile Resource Placement in Wireless Ad-hoc Networks –	
+Bradley R Fraser, Andrew Coyle, Claudia Szabo, Robert Hunjet
+	       <li> [2] Ground Localization with a Drone and UWB Antennas: Experiments on the Field –
+Francesco Betti Sorbelli, Cristina M. Pinotti
+               <li> [3] Blockchain Technology for Network of Unmanned Aerial Vehicle Swarms –	
+Isaac Jensen, Daisy Flora Selvaraj, Prakash Ranganathan
+	       <li> [4] Ray Tracing Analysis for UAV-assisted Integrated Access and Backhaul Millimeter Wave Networks –
+Alberto Perez, Abdurrahman Fouda, Ahmed S. Ibrahim
+               <li> 12:20 – 12:30 Closing
+	       </ul>
+            </div>
+         </div>     
+	      
+         <div class="w3-row-padding w3-light-grey w3-padding-32 w3-container" id="contact">
+            <div class="w3-content">
+               <h1 class="w3-xxlarge w3-text-indigo"><b>Contact Us</b></h1>
+               <a href="mailto:nmastron@buffalo.edu" target="_top">E-mail the organizers:</a> nmastron 
+				{at} buffalo {dot} edu
+            </div>
+         </div>
+
+         <div class="w3-container" style="position:relative">
+            <a href="#home" class="w3-button w3-normal w3-circle w3-blue"
+               style="position:absolute;top:-18px;right:24px"> top </a>
+         </div>
+      </div>
+
+      <!--
+      <div class="w3-container w3-rest">
+         <div id="twitter">
+            <a class="twitter-timeline" data-lang="en" height="2150" data-theme="dark" data-link-color="#2B7BB9" href="https://twitter.com/IEEE_WCNEE?ref_src=twsrc%5Etfw">Tweets by IEEE_WCNEE</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+         </div>
+      </div>
+      -->
+
+      <!--
+	  <div class="w3-container w3-rest">
+	  			<div id="conference">
+		       	<p class="title">WCNEE Workshops</p>
+				<ul>
+			  		<li><a href="http://infocom2018.ieee-infocom.org/content/workshop-wcnee-wireless-communications-and-networking-extreme-environments">2018 - Honolulu, USA</a></li>
+			  	</ul>
+			  	<ul>
+			  		<li><a href="http://infocom2017.ieee-infocom.org/workshop/wcnee-wireless-communications-and-networking-extreme-environments">2017 - Atlanta, USA</a></li>
+			  	</ul>
+			 </div>
+	   </div>
+	   -->
+	   
+      <!-- Footer -->
+      <footer class="w3-container w3-padding-64 w3-center w3-opacity">
+         <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+      </footer>
+      <script>
+         // Used to toggle the menu on small screens when clicking on the menu button
+         function myFunction() {
+             var x = document.getElementById("navDemo");
+             if (x.className.indexOf("w3-show") == -1) {
+                 x.className += " w3-show";
+             } else {
+                 x.className = x.className.replace(" w3-show", "");
+             }
+         }
+      </script>
+   </body>
+</html>
