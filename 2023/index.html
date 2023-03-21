@@ -1,0 +1,319 @@
+﻿<!DOCTYPE html>
+<html>
+   <title>SwarmNet Workshop</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <link href="wcnee.css" rel="stylesheet" type="text/css" id="styleId"/>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <style>
+      body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+      .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+      .fa-anchor,.fa-coffee {font-size:200px}
+   </style>
+   <body>
+      <!-- Navbar -->
+      <div class="w3-top">
+         <div class="w3-bar w3-indigo w3-card-2 w3-left-align w3-large">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-indigo" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+            <!-- <a href="#covid" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">COVID-19</a> -->
+            <a href="#scope" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Scope</a>
+            <a href="#topics" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Topics</a>
+            <a href="#submissions" class="w3-bar-item w3-button w3-padding-large">Submissions</a>
+            <a href="#committees" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Committees</a>
+            <a href="#dates" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Important Dates</a>
+            <a href="#program" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Program</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+         </div>
+         
+         <!-- Navbar on small screens -->
+         <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+            <a href="#covid" class="w3-bar-item w3-button w3-padding-large">COVID-19</a>
+            <a href="#scope" class="w3-bar-item w3-button w3-padding-large">Scope</a>
+            <a href="#topics" class="w3-bar-item w3-button w3-padding-large">Topics</a>
+            <a href="#submissions" class="w3-bar-item w3-button w3-padding-large">Submissions</a>
+            <a href="#committees" class="w3-bar-item w3-button w3-padding-large">Committees</a>
+            <a href="#dates" class="w3-bar-item w3-button w3-padding-large">Important Dates</a>
+            <a href="#program" class="w3-bar-item w3-button w3-padding-large">Program</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+         </div>
+      </div>
+      
+      <!-- Header -->
+      <header class="w3-container w3-white" style="padding-top:80px;">
+      </header>
+      
+      <!-- First Grid -->
+      <div class="w3-row-padding w3-padding-8 w3-container" id="home">
+         <div class="w3-content">
+            
+            <!-- <a href="http://tccc.committees.comsoc.org/" target="_blank"></a>
+            <img src="logo-tccc.png" width="120px" style="padding:25px 0px 0px 0px; position:absolute; margin-left:850px;"/>
+            
+            <a href="https://www.mst.edu" target="_blank">
+            <img src="logo-missouri.png" width="120px" style="padding:0px 0px 0px 0px; position:absolute; margin-left:720px;"/></a>  -->
+            
+            &nbsp;
+               
+            <p style="color:#777; font-size:12pt; font-weight: bold; padding-top:0; margin-top:0;">
+               &nbsp;<img alt="IEEE International Symposium on Personal, Indoor and Mobile Radio Communications" height="70" src="https://pimrc2023.ieee-pimrc.org/wp-content/uploads/sites/481/2022/08/ieee-pimrc-r.png"></p>
+			 <p style="color:#777; font-size:12pt; font-weight: bold; padding-top:0; margin-top:0;">
+               IEEE International Symposium on Personal, Indoor and Mobile Radio 
+			   Communications (IEEE PIMRC 2023) 
+               <br> September 5-8, 2023 | Toronto, ON, Canada</p>            
+             <img alt="File:Downtown Toronto in September 2018 (Early Sunday Morning, view from a kayak).jpg" data-file-height="2159" data-file-width="4031" decoding="async" height="428" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Downtown_Toronto_in_September_2018_(Early_Sunday_Morning,_view_from_a_kayak).jpg/800px-Downtown_Toronto_in_September_2018_(Early_Sunday_Morning,_view_from_a_kayak).jpg?20200424225559" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Downtown_Toronto_in_September_2018_%28Early_Sunday_Morning%2C_view_from_a_kayak%29.jpg/1199px-Downtown_Toronto_in_September_2018_%28Early_Sunday_Morning%2C_view_from_a_kayak%29.jpg?20200424225559 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Downtown_Toronto_in_September_2018_%28Early_Sunday_Morning%2C_view_from_a_kayak%29.jpg/1599px-Downtown_Toronto_in_September_2018_%28Early_Sunday_Morning%2C_view_from_a_kayak%29.jpg?20200424225559 2x" width="800">
+            <p>from <strong>
+			<a href="https://commons.wikimedia.org/wiki/File:Downtown_Toronto_in_September_2018_(Early_Sunday_Morning,_view_from_a_kayak).jpg">
+			commons.wikimedia.org</a></strong></p>
+            <h1 class="w3-jumbo w3-text-indigo" style="margin-bottom:-25px;"><b>
+			IEEE SwarmNet 2023</b></h1>
+            <h4 class="w3-text-blue"><b>5th IEEE Workshop on Wireless Networking, Planning, and Computing for UAV Swarms</b></h4>
+            <br>
+         </div>
+      </div>
+      
+           
+      <div class="w3-container"> <!-- w3-threequarter -->
+      
+         <div class="w3-row-padding w3-padding-32 w3-container w3-light-grey" id="scope">
+            <div class="w3-content">
+               <h1 class="w3-xxlarge w3-text-indigo "><b>SwarmNet Scope</b></h1>
+               <!-- Photo grid (modal) -->
+               <div class="w3-row-padding">
+                  <div>
+                     <p align="justify"> Recent advances in embedded computing, wireless communication, flight controllers, 
+                     and miniaturized sensing have enabled the growth of unmanned aerial vehicles (UAVs). 
+                     Networked swarms of such UAVs promise breakthroughs in public safety, commercial, and military applications 
+                     including search-and-rescue, disaster response, infrastructure inspection, environmental monitoring, 
+                     virtual/augmented reality, and ISR (intelligence, surveillance and reconnaissance). </p>                    
+                     <p align="justify"> The goal of this workshop is to bring together researchers working at the intersection of 
+                     wireless networking, mobile computing, sensing, robotics, and/or planning 
+                     to address a myriad of fundamental technical challenges that must be solved before UAV swarms (and,
+                     more broadly, multi-UAV systems) can be safely, effectively, and widely deployed. 
+                     Since many of these challenges will not be able to be addressed without the help of UAV swarm simulation platforms, 
+                     experimental testbeds/prototypes, and experimental evaluations, papers on these topics are especially encouraged. </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- Second Grid -->
+         <div class="w3-row-padding w3-white w3-padding-32 w3-container" id="topics">
+            <div class="w3-content">
+               <h1 class="w3-xxlarge w3-text-indigo "><b>SwarmNet Topics</b></h1>
+               <p>Topics of interest include, but are not limited to:</p>
+               <!-- 
+               <br>
+               <b style="border-bottom: 1px #000 dotted;">Communications and Networking Protocols</b> 
+               -->
+               <ul>
+                  <li> Communication and networking protocols for UAV swarms </li>
+                  <li> Resilient communication and networking protocols for multi-agent planning and control</li>
+				  <li> Cross-layer optimization and control of UAV networks </li>
+                  <li> Delay-tolerant networking for UAVs</li>
+				  <li> MIMO, mmWave, and THz networking for UAVs </li>
+                  <li> Network topology control for performance optimization (connectivity, throughput, etc.) </li>
+                  <li> Wireless localization for UAVs or wireless localization 
+				  using UAVs </li>
+                  <li> Communication architectures and technologies for UAV air-traffic control </li>
+                  <li> UAVs in 5G and beyond networks </li>
+                  <li> Networking for UAV sensing and applicaitons </li>
+                  <li> Aerial video streaming for virtual/augmented reality </li>
+                  <li> Data offloading and mobile edge computing with UAVs</li>
+				  <li> Spectrum and interference management techniques for UAV networks</li>
+                  <li> Air-to-air, air-to-ground, and ground-to-air channel modeling for UAVs</li>
+                  <li> Cyber-security for UAVs</li>
+                  <li> Trajectory planning and resource management in UAV networks </li>
+                  <li> UAV swarm network simulation platforms</li> 
+				  <li> Onboard AI for UAV-enabled aerial intelligence</li>
+                  <li> UAV swarm network simulation platforms, digital twins, testbeds, experimental evaluation, and prototyping</li>
+			   </ul>
+            </div>
+         </div>
+
+
+         <div class="w3-row-padding w3-light-grey w3-padding-32 w3-container" id="submissions">
+            <div class="w3-content">
+               <h1 class="w3-xxlarge w3-text-indigo"><b>Submissions</b></h1>
+               <a id="submissions"</a>
+               <div class="w3-row-padding">
+                  <div>
+                     <p>TBA</p>
+                     <!--<p align="justify"> Submissions may be up to 6 pages in length (including figures and references), 
+                     formatted in two-column IEEE conference style with font size 10 point or greater. 
+                     For the camera-ready (accepted) papers, authors can buy one additional page, for a total length of up to 7 pages.</p>
+		             <p>Papers must be submitted electronically to EDAS
+		             (<a href="https://edas.info/N29274" target="_blank">Click here to register your paper now!</a>)
+			         by 
+			         <strong>March 15, 2022</strong>. </p>
+                     <p>For guidelines regarding formatting, please refer to the 
+                     <a href="http://www.ieee.org/conferences_events/conferences/publishing/templates.html" target="_blank"> IEEE Manuscript Templates for Conference Proceedings</a>.
+                     </p>-->
+		             <!-- <p> A copyright footer should be added to all camera ready submissions. The right footer is selected according the following criteria:
+                         (1) For papers in which all authors are employed by the US government, the copyright notice is: U.S. Government work not protected by U.S. copyright;
+                         (2) For papers in which all authors are employed by a Crown government (UK, Canada, and Australia), the copyright notice is: 978-1-7281-0270-2/19/$31.00 ©2019 Crown;
+                         (3) For papers in which all authors are employed by the European Union, the copyright notice is: 978-1-7281-0270-2/19/$31.00 ©2019 European Union; and
+			             (4) For all other papers the copyright notice is: 978-1-7281-0270-2/19/$31.00 ©2019 IEEE.</p> -->
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+         <div class="w3-row-padding w3-white w3-padding-32 w3-container" id="committees">
+            <div class="w3-content">
+               <h1 class="w3-xxlarge w3-text-indigo"><b>SwarmNet Committees</b></h1>
+               <ul class="w3-ul">
+                  <b style="border-bottom: 1px #000 dotted;">Organizing Committee</b>
+                  <li> <a href="http://www.eng.buffalo.edu/~nmastron/" target="_blank"> Nick Mastronarde</a>
+                       <br> University at Buffalo, USA
+                        
+                  <li> <a href="https://www.cefns.nau.edu/~fa334/" target="_blank"> Fatemeh Afghah</a>
+                       <br> Clemson University, USA<li> <a href="https://www.cefns.nau.edu/~fa334/" target="_blank"> 
+				   V</a><a href="https://www.cefns.nau.edu/~fa334/">uk Marojevic</a>
+                       <br> Mississippi State University, USA
+               </ul>
+		       <br>
+               <ul class="w3-ul">
+                  <b style="border-bottom: 1px #000 dotted;">Technical Program Committee</b>
+                  <li> TBA </li>
+                  <!--<li> Jonathan Ashdown, Air Force Research Laboratory, USA
+                  <li> Zhangyu Guan, University at Buffalo, USA
+                  <li> Farshad Ghanei, University at Buffalo, USA
+                  <li> Ali Alipour, University at Buffalo, USA
+                  <li> Panos P. Markopoulos, Rochester Institute of Technology, USA
+                  <li> Georgios Sklivanitis, Florida Atlantic University, USA
+                  <li> Mohammad Mozaffari, Virginia Tech, USA
+                  <li> Abolfazl Razi, Clemson University, USA
+                  <li> Joseph Camp, Southern Methodist University, USA
+                  <li> Sabur Baidya, University of Louisville, USA
+                  <li> Hao Xu, University of Reno, USA
+                  <li> Kamesh Namuduri, University of North Texas-->
+               </ul>
+            </div>
+         </div>
+
+         <div class="w3-row-padding w3-light-grey w3-padding-32 w3-container" id="dates">
+            <div class="w3-content">
+               <h1 class="w3-xxlarge w3-text-indigo"><b>Important Dates</b></h1>
+               <table class="w3-table w3-striped">
+                  <tr>
+		             <th><b>Paper submission deadline:</b></th>
+                     <th>May 19, 2023</th>
+                     <!--<th><del>March 1, 2022</del>
+					 <span class="auto-style4"> <strong>Extended: March 15, 2022</strong></span>
+					 </th>-->
+                  </tr>
+                  <tr>
+                     <td>Author Notification:</td>
+                     <td> June 16, 2023</td>
+                  </tr>
+                  <tr>
+                     <td>Camera-ready submission:</td>
+                     <td> July 7, 2023</td>
+                  </tr>
+                  <tr>
+                     <td>Workshop date:</td>
+                     <td> Sept. 5, 2023</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+
+         <div class="w3-row-padding w3-white w3-padding-32 w3-container" id="program">
+            <div class="w3-content">
+               <h1 class="w3-xxlarge w3-text-indigo"><b>Workshop Program </b></h1>
+               
+                  <p>TBA</p>
+               
+               <!--<ul class="w3-ul">
+                  <li> All times are UK time (GMT+1)
+	              <li> 09:10 – 09:20 Opening remarks
+                  <li> 09:20 – 10:00 Keynote ISMS (TBA):
+                  <li> 10:00 - 10:30 Coffee Break 
+                  <li> 10:30 – 11:00 Accepted Papers ISMS 
+                  <li> [1] Enhancing Privacy in Ride-Sharing Applications Through POIs Selection –	
+                       Presenter: Maria Elena Renda
+	              <li> [2] Segment Detection Algorithm: CAN Bus Intrusion Detection Based on Bit Constraint –
+                       Presenter: Kaixuan Zheng
+                  <li> 11:00 - 11:40 Keynote NTN-6G (TBA):
+	              <li> 11:40 - 12:25 Accepted Papers NTN-6G
+	              <li> [1] Joint Terahertz Communication and Atmospheric Sensing in Low Earth Orbit Satellite Networks: Physical Layer Design -
+	                   Presenter: Sergi Aliaga
+	              <li> [2] Simulating LoRa-Based Direct-to-Satellite IoT Networks with FLoRaSat -
+	                   Presenter: Juan Fraire
+	              <li> [3] Link Budget Analysis for Free-Space Optical Satellite Networks -
+	                   Presenter: Jintao Liang
+	              <li> 12:30 - 01:30 Lunch Break
+                  <li> 01:30 – 02:10 Keynote SwarmNet:
+                       Air-Corridors: Highways in the Airspace - 
+                       Speaker: Kamesh Namuduri
+                  <li> 02:10 - 02:55 Accepted Papers SwarmNet                     
+                  <li> [1] Collision-free swarm take-off based on trajectory analysis and UAV grouping - 
+                       Presenter: Carlos T. Calafate
+	              <li> [2] UAV-Clustering: Cluster head selection and update for UAV swarms searching with unknown target location -
+	                   Presenter: Haiyan Li
+	              <li> [3] RF-SITL: A software-in-the-loop channel emulator for swarm networks -
+	                   Presenter: Nicholas Mastronarde
+	              <li> 02:55 - 03:00 Closing     
+
+	           </ul>--> 
+            </div>
+         </div>     
+	      
+         <div class="w3-row-padding w3-light-grey w3-padding-32 w3-container" id="contact">
+            <div class="w3-content">
+               <h1 class="w3-xxlarge w3-text-indigo"><b>Contact Us</b></h1>
+               <a href="mailto:nmastron@buffalo.edu" target="_top">E-mail the organizers:</a> nmastron 
+				  {at} buffalo {dot} edu
+            </div>
+         </div>
+
+         <div class="w3-container" style="position:relative">
+            <a href="#home" class="w3-button w3-normal w3-circle w3-blue"
+               style="position:absolute;top:-18px;right:24px"> top </a>
+         </div>
+      </div>
+
+      <!--
+      <div class="w3-container w3-rest">
+         <div id="twitter">
+            <a class="twitter-timeline" data-lang="en" height="2150" data-theme="dark" data-link-color="#2B7BB9" href="https://twitter.com/IEEE_WCNEE?ref_src=twsrc%5Etfw">Tweets by IEEE_WCNEE</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+         </div>
+      </div>
+      -->
+
+      <!--
+	  <div class="w3-container w3-rest">
+	  			<div id="conference">
+		       	<p class="title">WCNEE Workshops</p>
+				<ul>
+			  		<li><a href="http://infocom2018.ieee-infocom.org/content/workshop-wcnee-wireless-communications-and-networking-extreme-environments">2018 - Honolulu, USA</a></li>
+			  	</ul>
+			  	<ul>
+			  		<li><a href="http://infocom2017.ieee-infocom.org/workshop/wcnee-wireless-communications-and-networking-extreme-environments">2017 - Atlanta, USA</a></li>
+			  	</ul>
+			 </div>
+	   </div>
+	   -->
+	   
+      <!-- Footer -->
+      <footer class="w3-container w3-padding-64 w3-center w3-opacity">
+         <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+      </footer>
+      <script>
+         // Used to toggle the menu on small screens when clicking on the menu button
+         function myFunction() {
+             var x = document.getElementById("navDemo");
+             if (x.className.indexOf("w3-show") == -1) {
+                 x.className += " w3-show";
+             } else {
+                 x.className = x.className.replace(" w3-show", "");
+             }
+         }
+      </script>
+   </body>
+</html>
